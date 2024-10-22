@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
+using System.Text.Json;
+using System.IO;
 
 class Program
 {
     public class BingoBankoSpil
     {
         BankoPlade[] bankoPlader;
-        List<int> usedBingoNumbers = new();
+        readonly List<int> usedBingoNumbers = new();
 
         /// <summary>
         /// Constructor for BingoBankoSpil.
@@ -19,24 +22,70 @@ class Program
             for (int i = 0; i < bankoPlader.Length; i++)
             {
                 bankoPlader[i] = new BankoPlade();
-                bankoPlader[i].SetName("" + i);
+                bankoPlader[i].AssignID(i);
+                bankoPlader[i].SetName($"{i} of {i}");
                 bankoPlader[i].CreateRows();
             }
         }
 
+        public void PrintByName(string name)
+        {
+            foreach (BankoPlade plade in bankoPlader)
+            {
+                if (plade.GetName() == name)
+                {
+                    plade.PrintPlade();
+                    return;
+                }
+            }
+            Console.WriteLine("Could not find plate based on name.");
+        }
+
+        public void ExportPlatesToJSON(string filePath)
+        {
+            try
+            {
+                var options = new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                };
+
+                string jsonString = JsonSerializer.Serialize(bankoPlader, options);
+                File.WriteAllText(filePath, jsonString);
+                Console.WriteLine($"Successfully exported to {filePath}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        //public void ExportPlatesToJSON()
+        //{
+        //    JsonObject[] jsons = new JsonObject[bankoPlader.Length];
+        //    for (int i = 0; i < bankoPlader.Length; i++)
+        //    {
+        //        JsonObject tempJson = new JsonObject();
+        //        tempJson.plade = bankoPlader[i];
+        //        jsons[i] = tempJson;
+        //    }
+
+        //    string jsonString = JsonSerializer.Serialize(jsons, new JsonSerializerOptions { WriteIndented = true });
+        //    File.WriteAllText("jsonfile.json", jsonString);
+        //}
+
         public void ErrorCheckingPlates()
         {
             foreach (var plade in bankoPlader)
-            {
                 plade.ErrorCheckingRows();
-            }
         }
 
         public void ResolvePlates()
         {
             bool plateVictory = false;
             string winnerName = "";
-            for (int i = 0;i < 90;i++)
+            BankoPlade winnerPlate = new();
+            for (int i = 0; i < 90; i++)
             {
                 int bingoNumber = GetBingoNumber();
                 foreach (BankoPlade plade in bankoPlader)
@@ -47,7 +96,7 @@ class Program
                     {
                         plateVictory = true;
                         winnerName = plade.GetName();
-                        Console.WriteLine("You won the whole THANG!");
+                        winnerPlate = plade;
                         break;
                     }
                 }
@@ -55,17 +104,18 @@ class Program
                 if (plateVictory)
                 {
                     Console.WriteLine(i + " in, and " + winnerName + " Has won!");
+                    winnerPlate.PrintPlade();
                     break;
                 }
             }
         }
 
-        public int GetBingoNumber()
+        private int GetBingoNumber()
         {
             Random randCaller = new Random();
             while (true)
             {
-                int bingoNumber = randCaller.Next(1,91);
+                int bingoNumber = randCaller.Next(1, 91);
                 if (usedBingoNumbers.Contains(bingoNumber))
                 {
                     continue;
@@ -81,19 +131,31 @@ class Program
         public void PrintGame()
         {
             foreach (BankoPlade plade in bankoPlader)
-            {
                 plade.PrintPlade();
+        }
+
+        public void PrintById(int idNum)
+        {
+            foreach (BankoPlade plade in bankoPlader)
+            {
+                if (plade.id == idNum)
+                    plade.PrintPlade();
             }
         }
     }
     public class BankoPlade
     {
-        string? name;
-        List<int> usedBinogNumber = new();
-        int earnedRows = 0;
-        Row Row1 = new();
-        Row Row2 = new();
-        Row Row3 = new();
+        public string? name { get; set; }
+        public int? id { get; set; }
+        public int earnedRows { get; set; } = 0;
+        public Row Row1 { get; set; } = new();
+        public Row Row2 { get; set; } = new();
+        public Row Row3 { get; set; } = new();
+
+        public void AssignID(int idNum)
+        {
+            id = idNum;
+        }
 
         public string GetName()
         {
@@ -103,13 +165,9 @@ class Program
         public bool GottenEntirePlate()
         {
             if (Row1.lineStatus == true && Row2.lineStatus == true && Row3.lineStatus == true)
-            {
                 return true;
-            }
             else
-            {
                 return false;
-            }
         }
 
         public void ErrorCheckingRows()
@@ -119,94 +177,34 @@ class Program
             int rowThreeCounter = Row3.ExamineRow();
 
             if (rowOneCounter != 4)
-            {
                 Console.WriteLine("Error at row 1");
-            }
             else if (rowTwoCounter != 4)
-            {
                 Console.WriteLine("Error at row 2");
-            }
-            else if (rowThreeCounter != 4 )
-            {
+            else if (rowThreeCounter != 4)
                 Console.WriteLine("Error at row 3");
-            }
             else
-            {
                 Console.WriteLine("We good");
-            }
         }
+
 
         public void CheckPlateNumber(int bingoNumber)
         {
             int bingoNumberIndex = bingoNumber / 10;
             if (bingoNumberIndex == 9)
-            {
                 bingoNumberIndex--;
-            }
 
             if (!Row1.lineStatus && Row1.numbers[bingoNumberIndex] == bingoNumber)
-            {
-                Row1.numbers[bingoNumberIndex] = 99;
-                Row1.points++;
-                if (Row1.points == 5)
-                {
-                    Row1.lineStatus = true;
-                    Row1.points++;
-                    earnedRows++;
-                    if (earnedRows < 3)
-                    {
-                        Console.WriteLine("You got row 1!");
-                    }
-                }
-
-                Console.WriteLine("Row1" + Row1.points);
-                Console.WriteLine(bingoNumber);
-                PrintPlade();
-            }
+                Row1.InsertBingoNumberIntoRow(Row1, bingoNumberIndex, 1, earnedRows: ref earnedRows);
             else if (!Row2.lineStatus && Row2.numbers[bingoNumberIndex] == bingoNumber)
-            {
-                Row2.numbers[bingoNumberIndex] = 99;
-                Row2.points++;
-                if (Row2.points == 5)
-                {
-                    Row2.lineStatus = true;
-                    Row2.points++;
-                    earnedRows++;
-                    if (earnedRows < 3)
-                    {
-                        Console.WriteLine("You got row 2!");
-                    }
-                }
-
-                Console.WriteLine("Row2" + Row2.points);
-                Console.WriteLine(bingoNumber);
-                PrintPlade();
-            }
+                Row2.InsertBingoNumberIntoRow(Row2, bingoNumberIndex, 2, earnedRows: earnedRows);
             else if (!Row3.lineStatus && Row3.numbers[bingoNumberIndex] == bingoNumber)
-            {
-                Row3.numbers[bingoNumberIndex] = 99;
-                Row3.points++;
-                if (Row3.points == 5)
-                {
-                    Row3.lineStatus = true;
-                    Row3.points++;
-                    earnedRows++;
-                    if (earnedRows < 3)
-                    {
-                        Console.WriteLine("You got row 3!");
-                    }
-                }
-
-                Console.WriteLine("Row3" + Row3.points);
-                Console.WriteLine(bingoNumber);
-                PrintPlade();
-            }
+                Row3.InsertBingoNumberIntoRow(Row3, bingoNumberIndex, 3, ref earnedRows);
         }
 
         public int GetBingoNumber()
         {
             Random r = new();
-            return r.Next(1,91);
+            return r.Next(1, 91);
         }
 
         public void CreateRows()
@@ -230,7 +228,6 @@ class Program
             foreach (int elm in row.numbers)
             {
                 string elementStr = elm.ToString();
-
                 Console.Write(elementStr.PadRight(3));
             }
             Console.WriteLine();
@@ -242,11 +239,11 @@ class Program
         }
     }
 
-    private class Row
+    public class Row
     {
-        public int[] numbers = new int[9];
-        public int points = 0;
-        public bool lineStatus = false;
+        public int[] numbers { get; set; } = new int[9];
+        public int points { get; set; } = 0;
+        public bool lineStatus { get; set; } = false;
 
         // The full creation of a row.
         public void CreateRow(List<int> usedNumbers)
@@ -267,18 +264,35 @@ class Program
             return zeroCounter;
         }
 
-        public int[] GetNumbers(int[] indexes, List<int> usedNumbers)
+        public void InsertBingoNumberIntoRow(Row row, int bingoNumberIndex, int rowNum, ref int earnedRows)
+        {
+            row.numbers[bingoNumberIndex] = 99;
+            row.points++;
+            if (row.points == 5)
+            {
+                row.lineStatus = true;
+                row.points++;
+                earnedRows++;
+                if (earnedRows < 3)
+                    Console.WriteLine($"You got row {rowNum}!");
+            }
+            //Console.WriteLine("Row1" + Row1.points);
+            //Console.WriteLine(bingoNumber);
+            //PrintPlade();
+
+        }
+
+        private int[] GetNumbers(int[] indexes, List<int> usedNumbers)
         {
             int number;
             Random r = new();
-
             int[] row = new int[9];
 
             foreach (int index in indexes)
             {
                 do
                 {
-                // For the last column of a Bingo Board, we use different code, because we also need to include 90.
+                    // For the last column of a Bingo Board, we use different code, because we also need to include 90.
                     if (index == 8)
                     {
                         int adder = 10 * index;
@@ -300,23 +314,18 @@ class Program
             return row;
         }
 
-        public bool CheckDuplicateNumber(List<int> usedNumbers, int number)
+        private bool CheckDuplicateNumber(List<int> usedNumbers, int number)
         {
             if (usedNumbers.Contains(number))
-            {
-                // Console.WriteLine("Duplicate number " + number + " found");
                 return true;
-            }
             else
-            {
                 return false;
-            }
         }
 
-        public int[] getIndexies()
+        private int[] getIndexies()
         {
             int[] indexes = new int[5]; // Indexes where our values will be placed.
-            List<int> availabileIndexes = new List<int>{0,1,2,3,4,5,6,7,8}; // List, so that we can change the size.
+            List<int> availabileIndexes = new() { 0, 1, 2, 3, 4, 5, 6, 7, 8 }; // List, so that we can change the size.
 
             Random r = new Random();
             for (int i = 0; i < 5; i++)
@@ -332,8 +341,9 @@ class Program
 
     static void Main()
     {
-        BingoBankoSpil spil = new(1000);
+        BingoBankoSpil spil = new(10);
         spil.ResolvePlates();
-        
+        spil.ExportPlatesToJSON("jsonData.json");
+
     }
 }

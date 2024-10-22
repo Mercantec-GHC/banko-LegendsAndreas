@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Banko
-build_property.ProjectDir = C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\fundamentals-LegendsAndreas\andreas_banko\Banko\
+build_property.ProjectDir = C:\Users\andre\Desktop\Pog grammering\github\faelles_github\banko-LegendsAndreas\andreas_banko\Banko\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

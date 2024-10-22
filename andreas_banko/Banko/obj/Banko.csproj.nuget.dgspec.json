@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {}
+    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\banko-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {
+    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\banko-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\banko-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
         "projectName": "Banko",
-        "projectPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
+        "projectPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\banko-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\banko-LegendsAndreas\\andreas_banko\\Banko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
