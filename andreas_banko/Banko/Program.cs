@@ -2,9 +2,73 @@
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 using System.IO;
+using System.Collections;
 
 class Program
 {
+    public class AlternativeBingo : BankoPlade
+    {
+        Hashtable bingoPlates = new();
+        readonly List<int> usedBingoNumbers = new();
+
+        public void StartGame()
+        {
+            Console.WriteLine("Welcome to Bingo!");
+
+            string input = "";
+            while (true)
+            {
+                Console.Write("Please enter action" +
+                    "   make" +
+                    "   view" +
+                    "   insert" +
+                    "   >");
+                input = Console.ReadLine();
+
+                if (input == "make")
+                {
+                    Console.Write("Enter name>");
+                    CreatePlate(name: Console.ReadLine());
+                }
+                else if (input == "view")
+                {
+                    Console.Write("Enter plate name>");
+                    PrintPlate(name: Console.ReadLine());
+                }
+                else if (input == "insert")
+                {
+
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input.");
+                }
+                // Make plate.
+                // View plate.
+                // Insert number. Check number.
+            }
+        }
+
+        public void CreatePlate(string name)
+        {
+            BankoPlade tempPlate = new();
+            tempPlate.CreateRows();
+            tempPlate.SetName(name);
+            bingoPlates[name] = tempPlate;
+        }
+
+        public void PrintPlate(string name)
+        {
+            BankoPlade tempPlate = new();
+            tempPlate = (BankoPlade)bingoPlates[name];
+            tempPlate.PrintPlade();
+        }
+
+        public void InsertBingoNumber()
+        {
+
+        }
+    }
     public class BingoBankoSpil
     {
         BankoPlade[] bankoPlader;
@@ -60,19 +124,6 @@ class Program
             }
         }
 
-        //public void ExportPlatesToJSON()
-        //{
-        //    JsonObject[] jsons = new JsonObject[bankoPlader.Length];
-        //    for (int i = 0; i < bankoPlader.Length; i++)
-        //    {
-        //        JsonObject tempJson = new JsonObject();
-        //        tempJson.plade = bankoPlader[i];
-        //        jsons[i] = tempJson;
-        //    }
-
-        //    string jsonString = JsonSerializer.Serialize(jsons, new JsonSerializerOptions { WriteIndented = true });
-        //    File.WriteAllText("jsonfile.json", jsonString);
-        //}
 
         public void ErrorCheckingPlates()
         {
@@ -90,7 +141,7 @@ class Program
                 int bingoNumber = GetBingoNumber();
                 foreach (BankoPlade plade in bankoPlader)
                 {
-                    plade.CheckPlateNumber(bingoNumber);
+                    plade.CheckPlateNumber(bingoNumber, plade);
 
                     if (plade.GottenEntirePlate())
                     {
@@ -187,18 +238,18 @@ class Program
         }
 
 
-        public void CheckPlateNumber(int bingoNumber)
+        public void CheckPlateNumber(int bingoNumber, BankoPlade plade)
         {
             int bingoNumberIndex = bingoNumber / 10;
             if (bingoNumberIndex == 9)
                 bingoNumberIndex--;
 
             if (!Row1.lineStatus && Row1.numbers[bingoNumberIndex] == bingoNumber)
-                Row1.InsertBingoNumberIntoRow(Row1, bingoNumberIndex, 1, earnedRows: ref earnedRows);
+                Row1.InsertBingoNumberIntoRow(Row1, bingoNumberIndex, 1, plade);
             else if (!Row2.lineStatus && Row2.numbers[bingoNumberIndex] == bingoNumber)
-                Row2.InsertBingoNumberIntoRow(Row2, bingoNumberIndex, 2, earnedRows: earnedRows);
+                Row2.InsertBingoNumberIntoRow(Row2, bingoNumberIndex, 2, plade);
             else if (!Row3.lineStatus && Row3.numbers[bingoNumberIndex] == bingoNumber)
-                Row3.InsertBingoNumberIntoRow(Row3, bingoNumberIndex, 3, ref earnedRows);
+                Row3.InsertBingoNumberIntoRow(Row3, bingoNumberIndex, 3, plade);
         }
 
         public int GetBingoNumber()
@@ -264,7 +315,7 @@ class Program
             return zeroCounter;
         }
 
-        public void InsertBingoNumberIntoRow(Row row, int bingoNumberIndex, int rowNum, ref int earnedRows)
+        public void InsertBingoNumberIntoRow(Row row, int bingoNumberIndex, int rowNum, BankoPlade plade)
         {
             row.numbers[bingoNumberIndex] = 99;
             row.points++;
@@ -272,8 +323,8 @@ class Program
             {
                 row.lineStatus = true;
                 row.points++;
-                earnedRows++;
-                if (earnedRows < 3)
+                plade.earnedRows++;
+                if (plade.earnedRows < 3)
                     Console.WriteLine($"You got row {rowNum}!");
             }
             //Console.WriteLine("Row1" + Row1.points);
@@ -341,9 +392,8 @@ class Program
 
     static void Main()
     {
-        BingoBankoSpil spil = new(10);
-        spil.ResolvePlates();
-        spil.ExportPlatesToJSON("jsonData.json");
-
+        Hashtable ht = new Hashtable();
+        BingoBankoSpil t = new(1);
+        ht.Add("1", t);
     }
 }

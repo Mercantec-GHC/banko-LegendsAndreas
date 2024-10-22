@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "0 of 0",
+    "id": 0,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "1 of 1",
+    "id": 1,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        14,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "2 of 2",
+    "id": 2,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        42,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "3 of 3",
+    "id": 3,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        42,
+        0,
+        0,
+        0,
+        88
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "4 of 4",
+    "id": 4,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        14,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        15,
+        29,
+        0,
+        0,
+        99,
+        0,
+        99,
+        83
+      ],
+      "points": 2,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "5 of 5",
+    "id": 5,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        57,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "6 of 6",
+    "id": 6,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        88
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        51,
+        66,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        21,
+        99,
+        0,
+        57,
+        68,
+        99,
+        0
+      ],
+      "points": 2,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "7 of 7",
+    "id": 7,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        0,
+        51,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "8 of 8",
+    "id": 8,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        29,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        66,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        14,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "9 of 9",
+    "id": 9,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        42,
+        0,
+        0,
+        99,
+        88
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "10 of 10",
+    "id": 10,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        79,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "11 of 11",
+    "id": 11,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        29,
+        0,
+        0,
+        51,
+        66,
+        0,
+        88
+      ],
+      "points": 1,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "12 of 12",
+    "id": 12,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        79,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        15,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "13 of 13",
+    "id": 13,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        0,
+        0,
+        99,
+        57,
+        0,
+        0,
+        88
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "14 of 14",
+    "id": 14,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        16,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        51,
+        0,
+        79,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "15 of 15",
+    "id": 15,
+    "earnedRows": 3,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "16 of 16",
+    "id": 16,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        15,
+        0,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "17 of 17",
+    "id": 17,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        68,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "18 of 18",
+    "id": 18,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        14,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        21,
+        0,
+        42,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "19 of 19",
+    "id": 19,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "20 of 20",
+    "id": 20,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        0,
+        51,
+        0,
+        79,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        16,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "21 of 21",
+    "id": 21,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        46,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        0,
+        66,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        29,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "22 of 22",
+    "id": 22,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        14,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "23 of 23",
+    "id": 23,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        0,
+        57,
+        99,
+        79,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "24 of 24",
+    "id": 24,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        46,
+        57,
+        99,
+        0,
+        88
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "25 of 25",
+    "id": 25,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "26 of 26",
+    "id": 26,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        15,
+        0,
+        0,
+        99,
+        57,
+        0,
+        99,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        11,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "27 of 27",
+    "id": 27,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        16,
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        15,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        14,
+        0,
+        0,
+        99,
+        0,
+        66,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "28 of 28",
+    "id": 28,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        16,
+        99,
+        99,
+        46,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        21,
+        99,
+        0,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "29 of 29",
+    "id": 29,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        21,
+        0,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        14,
+        99,
+        99,
+        42,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "30 of 30",
+    "id": 30,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        14,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "31 of 31",
+    "id": 31,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        46,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        57,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "32 of 32",
+    "id": 32,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        99,
+        0,
+        0,
+        57,
+        99,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "33 of 33",
+    "id": 33,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        42,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        14,
+        99,
+        0,
+        0,
+        99,
+        68,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "34 of 34",
+    "id": 34,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        11,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        46,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        15,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "35 of 35",
+    "id": 35,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        16,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        51,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "36 of 36",
+    "id": 36,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        21,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "37 of 37",
+    "id": 37,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        99,
+        0,
+        42,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        0,
+        0,
+        99,
+        0,
+        99,
+        79,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "38 of 38",
+    "id": 38,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        16,
+        99,
+        0,
+        42,
+        57,
+        0,
+        0,
+        99
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "39 of 39",
+    "id": 39,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        16,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "40 of 40",
+    "id": 40,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        42,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        79,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "41 of 41",
+    "id": 41,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        42,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "42 of 42",
+    "id": 42,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        0,
+        0,
+        42,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        21,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "43 of 43",
+    "id": 43,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        29,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        0,
+        79,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "44 of 44",
+    "id": 44,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        21,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        16,
+        99,
+        99,
+        0,
+        0,
+        66,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "45 of 45",
+    "id": 45,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        66,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "46 of 46",
+    "id": 46,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        16,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "47 of 47",
+    "id": 47,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        42,
+        57,
+        0,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        29,
+        99,
+        46,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "48 of 48",
+    "id": 48,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "49 of 49",
+    "id": 49,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        0,
+        99,
+        0,
+        51,
+        99,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        0,
+        57,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "50 of 50",
+    "id": 50,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        14,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        15,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "51 of 51",
+    "id": 51,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        0,
+        79,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        68,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        0,
+        0,
+        66,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "52 of 52",
+    "id": 52,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        99,
+        0,
+        0,
+        0,
+        0,
+        99,
+        88
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "53 of 53",
+    "id": 53,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        42,
+        51,
+        0,
+        99,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "54 of 54",
+    "id": 54,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        15,
+        99,
+        99,
+        0,
+        57,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        99,
+        51,
+        0,
+        0,
+        88
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "55 of 55",
+    "id": 55,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        42,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        0,
+        51,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "56 of 56",
+    "id": 56,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        14,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        46,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "57 of 57",
+    "id": 57,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        57,
+        68,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "58 of 58",
+    "id": 58,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        29,
+        0,
+        0,
+        99,
+        66,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        15,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "59 of 59",
+    "id": 59,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        46,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "60 of 60",
+    "id": 60,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        51,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        15,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "61 of 61",
+    "id": 61,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        14,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "62 of 62",
+    "id": 62,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        0,
+        51,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        79,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "63 of 63",
+    "id": 63,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        57,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        16,
+        0,
+        99,
+        99,
+        0,
+        99,
+        79,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "64 of 64",
+    "id": 64,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        11,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "65 of 65",
+    "id": 65,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        11,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        42,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "66 of 66",
+    "id": 66,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        88
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        66,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "67 of 67",
+    "id": 67,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "68 of 68",
+    "id": 68,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        29,
+        99,
+        42,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 2,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "69 of 69",
+    "id": 69,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        88
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "70 of 70",
+    "id": 70,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        16,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        29,
+        99,
+        42,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "71 of 71",
+    "id": 71,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        16,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        15,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "72 of 72",
+    "id": 72,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        46,
+        57,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        99,
+        99,
+        0,
+        0,
+        68,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "73 of 73",
+    "id": 73,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        99,
+        99,
+        0,
+        0,
+        68,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        46,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "74 of 74",
+    "id": 74,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        16,
+        99,
+        99,
+        0,
+        57,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        99,
+        51,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "75 of 75",
+    "id": 75,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        46,
+        57,
+        0,
+        79,
+        99
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "76 of 76",
+    "id": 76,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        42,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        0,
+        68,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        29,
+        0,
+        0,
+        0,
+        99,
+        99,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "77 of 77",
+    "id": 77,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        99,
+        0,
+        66,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "78 of 78",
+    "id": 78,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        21,
+        99,
+        99,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        15,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        46,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "79 of 79",
+    "id": 79,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        21,
+        0,
+        0,
+        99,
+        0,
+        99,
+        88
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        14,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "80 of 80",
+    "id": 80,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        0,
+        99,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        99,
+        51,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "81 of 81",
+    "id": 81,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        15,
+        0,
+        0,
+        99,
+        0,
+        66,
+        99,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        0,
+        99,
+        99,
+        0,
+        0,
+        0,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        51,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "82 of 82",
+    "id": 82,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        68,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "83 of 83",
+    "id": 83,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        51,
+        99,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        46,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "84 of 84",
+    "id": 84,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        99,
+        99,
+        0,
+        66,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        0,
+        83
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        88
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "85 of 85",
+    "id": 85,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        16,
+        0,
+        99,
+        0,
+        51,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        21,
+        0,
+        0,
+        99,
+        68,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "86 of 86",
+    "id": 86,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        51,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        14,
+        0,
+        0,
+        42,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        0,
+        99,
+        66,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "87 of 87",
+    "id": 87,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        68,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        11,
+        21,
+        99,
+        99,
+        0,
+        66,
+        0,
+        0
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "88 of 88",
+    "id": 88,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        99,
+        0,
+        0,
+        99,
+        0,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        99,
+        0,
+        51,
+        0,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "89 of 89",
+    "id": 89,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        42,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "90 of 90",
+    "id": 90,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        21,
+        0,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        15,
+        0,
+        99,
+        0,
+        0,
+        0,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        14,
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "91 of 91",
+    "id": 91,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        21,
+        99,
+        0,
+        0,
+        68,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        0,
+        99,
+        99,
+        99,
+        0,
+        99,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99,
+        79,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "92 of 92",
+    "id": 92,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        0,
+        99,
+        57,
+        0,
+        79,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        21,
+        99,
+        46,
+        0,
+        0,
+        99,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        0,
+        99,
+        66,
+        99,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "93 of 93",
+    "id": 93,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0,
+        0,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        0,
+        21,
+        0,
+        99,
+        0,
+        0,
+        99,
+        83
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        51,
+        0,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "94 of 94",
+    "id": 94,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        15,
+        99,
+        0,
+        0,
+        0,
+        0,
+        79,
+        83
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        11,
+        99,
+        99,
+        0,
+        99,
+        66,
+        0,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        21,
+        0,
+        0,
+        0,
+        99,
+        99,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "95 of 95",
+    "id": 95,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        68,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        15,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        11,
+        0,
+        0,
+        99,
+        51,
+        0,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "96 of 96",
+    "id": 96,
+    "earnedRows": 2,
+    "Row1": {
+      "numbers": [
+        99,
+        99,
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        99,
+        0,
+        0,
+        0,
+        99,
+        0,
+        99,
+        99
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        15,
+        21,
+        99,
+        42,
+        0,
+        66,
+        0,
+        0
+      ],
+      "points": 1,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "97 of 97",
+    "id": 97,
+    "earnedRows": 0,
+    "Row1": {
+      "numbers": [
+        99,
+        15,
+        99,
+        0,
+        0,
+        0,
+        66,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        11,
+        0,
+        99,
+        42,
+        0,
+        99,
+        0,
+        83
+      ],
+      "points": 2,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        21,
+        0,
+        99,
+        99,
+        0,
+        79,
+        0
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  },
+  {
+    "name": "98 of 98",
+    "id": 98,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        99,
+        11,
+        0,
+        0,
+        0,
+        57,
+        99,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    },
+    "Row2": {
+      "numbers": [
+        0,
+        16,
+        0,
+        99,
+        0,
+        99,
+        99,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        99,
+        0,
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    }
+  },
+  {
+    "name": "99 of 99",
+    "id": 99,
+    "earnedRows": 1,
+    "Row1": {
+      "numbers": [
+        0,
+        99,
+        99,
+        0,
+        99,
+        99,
+        99,
+        0,
+        0
+      ],
+      "points": 6,
+      "lineStatus": true
+    },
+    "Row2": {
+      "numbers": [
+        99,
+        11,
+        0,
+        99,
+        0,
+        99,
+        0,
+        0,
+        99
+      ],
+      "points": 4,
+      "lineStatus": false
+    },
+    "Row3": {
+      "numbers": [
+        0,
+        99,
+        0,
+        99,
+        46,
+        0,
+        68,
+        0,
+        99
+      ],
+      "points": 3,
+      "lineStatus": false
+    }
+  }
+]
